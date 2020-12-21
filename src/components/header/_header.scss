@@ -1,0 +1,141 @@
+header {
+    padding: 20px 0 0;
+
+    .mohreLogo {
+        max-width: 260px;
+    }
+
+    .tawteenLogo {
+        max-width: 110px;
+    }
+
+    .d-flex {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.createJob__container {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 10px 40px;
+    margin: 0 40px;
+}
+
+.createJob__btn {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+
+    &:hover {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+}
+
+.topNavAction__container {
+    a {
+        color: black;
+        text-decoration: none;
+        display: inline;
+        margin: 0 20px;
+        font-size: 17px;
+    }
+}
+
+.menu__container {
+    transition: all 0.3s;
+    background-color: var(--primary-color);
+    margin: 20px 0 0;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        a {
+            font-size: 16px;
+            display: inline-block;
+            position: relative;
+            padding: 15px 15px;
+            &.active,
+            &:hover {
+                &:before {
+                    content: "";
+                    height: 6px;
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    background-color: #fff;
+                    border-radius: 20px 20px 0 0;
+                    -webkit-border-radius: 20px 20px 0 0;
+                    -moz-border-radius: 20px 20px 0 0;
+                    -ms-border-radius: 20px 20px 0 0;
+                    -o-border-radius: 20px 20px 0 0;
+                    transition: all 0.3s;
+                }
+            }
+        }
+        .showMore__links {
+            font-size: 25px;
+            padding: 0 0 0 20px;
+            line-height: 25px;
+            border-left: 1px solid #fff;
+            margin: 0 0 0 10px;
+            &:hover i {
+                    transform: translateX(40%);
+                }
+            i {
+                transition: all 0.3s;
+            }
+            
+            &::before{
+                display: none;
+            }
+        }
+    }
+}
+
+.profileHolder__container {
+    .profile__btn {
+        font-size: 25px;
+    }
+}
+
+.rightNav__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headerDropdown__menu {
+    position: absolute;
+    top: 54px;
+    right: 0;
+    background: #fff;
+    box-shadow: 0px 5px 20px #575757;
+    padding: 0;
+    width: 25%;
+    z-index: 99;
+
+    li {
+        list-style: none;
+    }
+    a {
+        color: #333;
+        display: block !important;
+        &:hover {
+            background-color: #ededed;
+        }
+        &::before {
+            display: none;
+        }
+    }
+}
