@@ -1,4 +1,4 @@
-body,html {
+body,html,#root {
     height: 100%;
 }
 
@@ -127,7 +127,3 @@ body,html {
     z-index: 9;
 }
 
-footer {
-    background-color: $base-color;
-    padding: 50px;
-}
