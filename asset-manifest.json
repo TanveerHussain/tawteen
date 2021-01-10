@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/tawteen/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/tawteen/static/js/main.b7e98b95.chunk.js",
-    "main.js.map": "/tawteen/static/js/main.b7e98b95.chunk.js.map",
-    "runtime-main.js": "/tawteen/static/js/runtime-main.c4b411ec.js",
-    "runtime-main.js.map": "/tawteen/static/js/runtime-main.c4b411ec.js.map",
-    "static/js/2.881c478e.chunk.js": "/tawteen/static/js/2.881c478e.chunk.js",
-    "static/js/2.881c478e.chunk.js.map": "/tawteen/static/js/2.881c478e.chunk.js.map",
-    "static/js/3.efefcc59.chunk.js": "/tawteen/static/js/3.efefcc59.chunk.js",
-    "static/js/3.efefcc59.chunk.js.map": "/tawteen/static/js/3.efefcc59.chunk.js.map",
+    "main.css": "/tawteen/static/css/main.8349bc6d.chunk.css",
+    "main.js": "/tawteen/static/js/main.a4d36cc9.chunk.js",
+    "main.js.map": "/tawteen/static/js/main.a4d36cc9.chunk.js.map",
+    "runtime-main.js": "/tawteen/static/js/runtime-main.ad5042bb.js",
+    "runtime-main.js.map": "/tawteen/static/js/runtime-main.ad5042bb.js.map",
+    "static/css/2.dd2ecf2f.chunk.css": "/tawteen/static/css/2.dd2ecf2f.chunk.css",
+    "static/js/2.29e2ff92.chunk.js": "/tawteen/static/js/2.29e2ff92.chunk.js",
+    "static/js/2.29e2ff92.chunk.js.map": "/tawteen/static/js/2.29e2ff92.chunk.js.map",
     "index.html": "/tawteen/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/tawteen/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.881c478e.chunk.js.LICENSE.txt": "/tawteen/static/js/2.881c478e.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/tawteen/static/media/logo.6ce24c58.svg"
+    "static/css/2.dd2ecf2f.chunk.css.map": "/tawteen/static/css/2.dd2ecf2f.chunk.css.map",
+    "static/css/main.8349bc6d.chunk.css.map": "/tawteen/static/css/main.8349bc6d.chunk.css.map",
+    "static/js/2.29e2ff92.chunk.js.LICENSE.txt": "/tawteen/static/js/2.29e2ff92.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/tawteen/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/mohrelogo.773b0063.png": "/tawteen/static/media/mohrelogo.773b0063.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4b411ec.js",
-    "static/js/2.881c478e.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.b7e98b95.chunk.js"
+    "static/js/runtime-main.ad5042bb.js",
+    "static/css/2.dd2ecf2f.chunk.css",
+    "static/js/2.29e2ff92.chunk.js",
+    "static/css/main.8349bc6d.chunk.css",
+    "static/js/main.a4d36cc9.chunk.js"
   ]
 }
