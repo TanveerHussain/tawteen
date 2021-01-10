@@ -9,15 +9,44 @@ import {
   Route
 } from "react-router-dom";
 
-
-import Login from './components/login/Login';
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+import Sidebar from './components/sidebar/Sidebar'
+import Dashboard from './pages/Dashboard'
+import MyCareer from './pages/MyCareer'
+import MyBusiness from './pages/MyBusiness'
 
 class App extends React.Component {
     render(){
         return (
-            
-            <Login/>
-            
+            <Router>
+                <div className="GridParent">
+                    <Header/>
+                    <div className="middle position-relative">
+                        <div className="container h-100">
+                            <section className="main__section h-100">
+                                <Sidebar/>
+                                <main>
+                                    <div className="px-4">
+                                        <Switch>
+                                            <Route exact path="/">
+                                                <Dashboard />
+                                            </Route>
+                                            <Route path="/MyCareer">
+                                                <MyCareer />
+                                            </Route>
+                                            <Route path="/MyBusiness">
+                                                <MyBusiness />
+                                            </Route>
+                                        </Switch>
+                                    </div>
+                                </main>
+                            </section>
+                        </div>
+                    </div>
+                    <Footer/>
+                </div>
+            </Router>
         );
     }
 }
