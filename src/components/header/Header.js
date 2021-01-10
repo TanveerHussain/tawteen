@@ -1,7 +1,9 @@
 import * as React from 'react';
+import {Link} from "react-router-dom";
+
 import mohreLogo from '../../images/mohrelogo.png';
 import tawteenLogo from '../../images/tawteenlogo.png';
-
+import mainlogo from '../../images/reactlogo.png';
 import Nagivation from '../header/Navigation';
 
 
@@ -13,26 +15,23 @@ class Header extends React.Component {
         <header>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 col-lg-4">
-                        <a href="#">
-                            <img src={mohreLogo} className="img-fluid mohreLogo" alt=""/>
-                        </a>
+                    <div className="col-md-6 col-lg-4 my-auto">
+                        <Link to="/" className="logoHolder">
+                            <h1>LOGO</h1>
+                        </Link>
                     </div>
                     <div className="co-md-6 col-lg-8 my-auto text-md-start">
                         <div className="d-flex">
                             <div className="topNavAction__container">
                                 <nav>
-                                    <a href="#"><i className="fas fa-search"></i></a>
-                                    <a href="#"><i className="fas fa-cog"></i></a>
-                                    <a href="#">Arabic</a>
+                                    <Link to="/"><i className="fas fa-search"></i></Link>
+                                    <Link to="/"><i className="fas fa-cog"></i></Link>
+                                    <Link to="/">Arabic</Link>
                                 </nav>
                             </div>
                             <div className="createJob__container">
-                                <a href="#" className="btn btn-outline-primary createJob__btn">Create a Job</a>
+                                <Link to="/" className="btn btn-outline-info createJob__btn"><i className="far fa-user"></i> Login</Link>
                             </div>
-                            <a href="#" className="d-inline">
-                                <img src={tawteenLogo} className="img-fluid tawteenLogo" alt=""/>
-                            </a>
                         </div>
                     </div>
                 </div>

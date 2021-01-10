@@ -1,5 +1,5 @@
 header {
-    padding: 20px 0 0;
+    padding: 10px 0 0;
 
     .mohreLogo {
         max-width: 260px;
@@ -16,22 +16,19 @@ header {
     }
 }
 
-.createJob__container {
-    border-right: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    padding: 10px 40px;
-    margin: 0 40px;
-}
-
-.createJob__btn {
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-
-    &:hover {
-        background-color: var(--primary-color);
-        border-color: var(--primary-color);
+.logoHolder {
+    color: #333;
+    h1 {
+        font-size: 30px;
     }
 }
+
+.createJob__container {
+    border-left: 1px solid #ccc;
+    padding: 5px 0 5px 20px;
+    margin: 0 0 0 20px;
+}
+
 
 .topNavAction__container {
     a {
@@ -45,8 +42,7 @@ header {
 
 .menu__container {
     transition: all 0.3s;
-    background-color: var(--primary-color);
-    margin: 20px 0 0;
+    margin: 10px 0 0;
 
     a {
         color: #fff;

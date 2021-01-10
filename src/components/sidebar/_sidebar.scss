@@ -9,7 +9,7 @@
     a {
         transition: all 0.3s;
         text-decoration: none;
-        color: #000;
+        color: #333;
         font-size: 16px;
         padding: 20px 15px 20px 15px;
         display: block;
@@ -23,7 +23,7 @@
                 position: absolute;
                 height: 100%;
                 width: 5px;
-                background-color: var(--primary-color);
+                background-color: #333;
                 left: 0;
                 top: 0;
                 transition: all 0.3s;
@@ -36,7 +36,6 @@
     }
     i {
         font-size: 1.2em;
-        color: var(--primary-color);
         margin: 0 15px 0;
     }
 
