@@ -1,7 +1,7 @@
 import * as React from 'react';
-import '../node_modules/bootstrap/scss/bootstrap.scss'
-import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-import '../src/sass/main.scss'
+import '../../node_modules/bootstrap/scss/bootstrap.scss'
+import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+import '../../src/sass/main.scss'
 
 import {
   BrowserRouter as Router,
@@ -9,12 +9,12 @@ import {
   Route
 } from "react-router-dom";
 
-import Header from './components/header/Header'
-import Footer from './components/footer/Footer'
-import Sidebar from './components/sidebar/Sidebar'
-import Dashboard from './pages/Dashboard'
-import MyCareer from './pages/MyCareer'
-import MyBusiness from './pages/MyBusiness'
+import Header from '../components/header/Header'
+import Footer from '../components/footer/Footer'
+import Sidebar from '../components/sidebar/Sidebar'
+import Dashboard from '../pages/Dashboard'
+import MyCareer from '../pages/MyCareer'
+import MyBusiness from '../pages/MyBusiness'
 
 class App extends React.Component {
     render(){

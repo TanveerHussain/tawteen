@@ -1,0 +1,129 @@
+body,html,#root {
+    height: 100%;
+}
+
+:root{
+    --primary-color: #007d15;
+}
+
+.GridParent {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+} 
+
+
+/* Main Content CSS */
+.main__section {
+    display: grid;
+    grid-template-columns: minmax(250px, 20%) 1fr;
+    margin: 30px 0 0;
+  }
+
+.Page__title {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+.tabs__container {
+    nav {
+        display: table;
+        background-color: #f3f3f3;
+        border-radius: 30px;
+        a {
+            font-size: 1rem;
+            transition: all 0.3s;
+            text-decoration: none;
+            color: #666;
+            display:table-cell;
+            padding: 10px 25px;
+            border-radius: 30px;
+            &:hover,&.active {
+                background-color: var(--primary-color);
+                color: #fff;
+            }
+        }
+    }
+}
+
+.table {
+    td,th {
+        font-size: 14px;
+        padding: 15px 20px;
+        max-width: 33.3%;
+    }
+    .badge {
+        padding: 10px 15px;
+        font-weight: 500;
+    }
+    .fa-eye {
+        color: #ccc;
+        cursor: pointer;
+        &:hover {
+            color: #999;
+        }
+    }
+}
+
+.table--headBg {
+    th {
+        background-color: #f3f3f3;
+    }
+}
+
+.badge.badge--dot {
+    position: relative;
+    padding-left: 25px;
+    &:before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        left: 13px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+
+.badge.bg-success--light { 
+    background-color: #d9fad9;
+    color: green;
+    &:before {
+        background-color: green;
+    }
+}
+
+.badge.bg-danger--light { 
+    background-color: #febaba;
+    color: red;
+    &:before {
+        background-color: red;
+    }
+}
+
+.badge.bg-info--light { 
+    background-color: #aaf3f3;
+    color: #0ea7a7;
+    &:before {
+        background-color: #0ea7a7;
+    }
+}
+
+.badge.bg-warning--light { 
+    background-color: yellow;
+}
+
+.overlay__div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+
